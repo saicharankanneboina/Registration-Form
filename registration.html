@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+
+<div class="container">
+
+<h2 >User Registration Form</h2><br><br>
+
+<form id="registrationForm">
+
+    <label>First Name:</label>
+    <input type="text" id="fname"><br><br>
+
+    <label>Last Name:</label>
+    <input type="text" id="lname"><br><br>
+
+    <label>Father's Name:</label>
+    <input type="text" id="father"><br><br>
+
+    <label>Mother's Name:</label>
+    <input type="text" id="mother"><br><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <input type="radio" name="gender" value="Other"> Other
+    <br><br>
+
+    <label>Phone Number:</label>
+    <input type="tel" id="phone"><br><br>
+
+    <label>Date of Birth:</label>
+    <input type="date" id="dob"><br><br>
+
+    <label>Email:</label>
+    <input type="email" id="email"><br><br>
+
+    <label>Password:</label>
+    <input type="password" id="password"><br><br>
+
+    <label>Upload Photo:</label>
+    <input type="file" id="photo"><br><br>
+
+    <label>Upload Signature:</label>
+    <input type="file" id="signature"><br><br>
+
+    <h3>Educational Details</h3>
+
+    <table border="1">
+        <tr>
+            <th>Qualification</th>
+            <th>College</th>
+            <th>Year</th>
+            <th>Percentage</th>
+        </tr>
+
+        <tr>
+            <td><input type="text" id="qualification"></td>
+            <td><input type="text" id="college"></td>
+            <td><input type="text" id="year"></td>
+            <td><input type="text" id="percentage"></td>
+        </tr>
+    </table>
+
+    <br>
+    <div class=buttons>
+    <button type="submit">Register</button>
+    <button type="reset">Reset</button>
+   </div>
+</form>
+
+</div>
+
+<script src="registration.js"></script>
+
+</body>
+</html>
