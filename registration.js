@@ -29,5 +29,14 @@ document.getElementById("registrationForm").addEventListener("submit", function(
         alert("Phone number must contain 10 digits.");
         return;
     }
+    function validatePhone()
+{
+    let alphone=document.getElementById("alternatePhone").value;
+
+    if(alphone.length!=10)
+    {
+        alert("Enter valid alternate phone number");
+    }
+}
     alert("Registration Successful");
 });

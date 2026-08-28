@@ -31,3 +31,8 @@ button{
 form{
     text-align: center;
 }
+alternatePhone {
+    width:300px;
+    padding:8px;
+    border:2px solid blue;
+}
